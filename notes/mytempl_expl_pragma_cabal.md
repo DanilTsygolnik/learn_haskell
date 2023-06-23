@@ -81,6 +81,44 @@ Warning: Packages using 'cabal-version: >= 1.10' and before 'cabal-version: 3.4'
 
 ----
 
+#### {-# START_FILE stack.yaml #-}
+
+Some commonly used options have been documented as comments in this file.
+
+See [advanced usage documentation](https://docs.haskellstack.org/en/stable/yaml_configuration/) for details.
+
+----
+
+`resolver:`
+
+Resolver to choose a 'specific' stackage snapshot or a compiler version.
+A snapshot resolver dictates the compiler version and the set of packages
+to be used for project dependencies. For example:
+```
+resolver: lts-3.5
+resolver: nightly-2015-09-21
+resolver: ghc-7.10.2
+resolver: ./custom-snapshot.yaml
+resolver: https://example.com/snapshots/2018-01-01.yaml
+```
+
+----
+
+`packages:`
+
+User packages to be built.
+
+Various formats can be used as shown in the example below.
+```
+packages:
+- some-directory
+- https://example.com/foo/bar/baz-0.0.2.tar.gz
+  subdirs:
+  - auto-update
+  - wai
+```
+
+
 ### Ремарки
 
 Empty lines number
