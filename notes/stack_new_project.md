@@ -4,6 +4,9 @@
 
 Проекты на Haskell инициализируются с помощью команды `stack new <project_name> <template_to_use>`. В файле `<template_to_use>` содержится декларативное описание структуры проекта (пути к файлам с заготовками кода), настройки для сборки (?) проекта.
 
+При вызове команды, например, `stack new helloworld`, создаётся директория `helloworld/`, которая будет содержать одноимённый [_Haskell package_](https://cabal.readthedocs.io/en/stable/intro.html#what-s-in-a-package). [^stack-new-command-haskellstack.org]
+
+
 Пример структуры [учебного проекта](https://github.com/haskellbook/hello/) ("Hello, world!"), который приводится в учебнике [Haskell Programming from First Principles](https://haskellbook.com/) ([pdf](https://mega.nz/file/rt8wBJxC#NUwGJOlC-0n85CG5zM8UeRaL52WbEl37ul4q03k1itM)), гл. 13.3:
 ```
 /hello
@@ -64,3 +67,6 @@ Hi there :)
 $ stack exec -- which solutions-exe
 /home/user/.../.stack-work/install/.../bin/solutions-exe
 ```
+
+
+[^stack-new-command-haskellstack.org]: https://docs.haskellstack.org/en/stable/GUIDE/#the-stack-new-command
