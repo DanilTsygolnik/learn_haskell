@@ -20,6 +20,15 @@
 └── README.md
 ```
 
+**Важно**: именование файлов модулей в Haskell производится обязательно (!) с большой буквы, иначе сборка прервётся с кодом ошибки `'[S-7282]'` и сообщением `'Could not find module 'Hello'` (для файла `src/hello.hs`, в данном примере).
+
+> For example, suppose the search path contains directories `d1`, `d2`, and `d3`, and we are in `--make` mode looking for the source file for a module `A.B.C.` GHC will look in `d1/A/B/C.hs`, `d2/A/B/C.lhs`, `d3/A/B/C.hs`, and so on.
+
+&mdash; _[downloads.haskell.org, 4.7.3. The search path][1]_
+
+[1]: https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/separate-compilation.html
+
+
 Взял за основу templates [kurt.hsfiles](https://github.com/commercialhaskell/stack-templates/blob/1855a1ad1593c5dc39361d409466e5f4c858077e/kurt.hsfiles) и [new-template.hsfiles](https://github.com/commercialhaskell/stack-templates/blob/1855a1ad1593c5dc39361d409466e5f4c858077e/new-template.hsfiles), написал [собственный шаблон](../misc/stack_new_mytempl.hsfiles) для создания простой заготовка проекта со следующей структурой файлов:
 ```
 $ stack new solutions /abs/path/to/mytemplate.hsfiles
