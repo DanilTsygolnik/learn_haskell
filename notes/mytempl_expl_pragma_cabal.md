@@ -44,7 +44,7 @@ stack new code mytempl -p "author-email:value" -p "author-name:value" -p "catego
 
 `ghc-options:`
 
-- `-Wall` -- Enables all warnings.
+- `-Wall` : This option enables all warnings. It is a common practice to enable this option to catch potential issues and ensure code quality. The `-W` prefix indicates that it is a warning-related option.
 - `-Wcompat` -- Warn about compatibility issues between different versions of GHC.
 - `-Widentities` -- Warn about redundant identity functions.
 - `-Wincomplete-record-updates` -- Warn about incomplete record updates.
@@ -53,6 +53,10 @@ stack new code mytempl -p "author-email:value" -p "author-name:value" -p "catego
 - `-Wmissing-home-modules` -- Warn about missing home modules.
 - `-Wpartial-fields` -- Warn about partial record fields.
 - `-Wredundant-constraints` -- Warn about redundant constraints.
+- `-fwarn-tabs` : This option enables warnings about the use of tabs for indentation. It helps enforce consistent indentation style and avoid potential issues caused by mixing tabs and spaces.
+- `-threaded` : This option enables support for running Haskell programs with multiple OS threads. It allows concurrent execution of Haskell code and can improve performance for multi-threaded applications.
+- `-rtsopts` : This option allows passing runtime system options to the compiled Haskell program. Runtime system options control various aspects of program execution, such as garbage collection behavior and memory usage.
+- `-with-rtsopts=-N` : This option sets the runtime system options to -N, which instructs the program to use all available CPU cores for parallel execution. It is particularly useful for parallelizing CPU-bound computations.
 
 
 ----
