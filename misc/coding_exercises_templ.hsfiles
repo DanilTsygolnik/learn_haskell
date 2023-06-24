@@ -1,0 +1,79 @@
+{-# START_FILE package.yaml #-}
+name:                {{name}}
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Widentities
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wmissing-export-lists
+- -Wmissing-home-modules
+- -Wpartial-fields
+- -Wredundant-constraints
+
+library:
+  source-dirs: src
+
+executables:
+  {{name}}-exe:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+    - {{name}}
+    ghc-options:
+    - -fwarn-tabs
+
+
+tests:
+  {{name}}-test:
+    main:                Spec.hs
+    source-dirs:         test
+    dependencies:
+    - {{name}}
+    ghc-options:
+    - -fwarn-tabs
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
+{-# START_FILE stack.yaml #-}
+resolver:
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/21/0.yaml
+
+packages:
+- .
+
+{-# START_FILE Setup.hs #-}
+import Distribution.Simple
+main = defaultMain
+
+{-# START_FILE test/Spec.hs #-}
+main :: IO ()
+main = putStrLn "Test suite not yet implemented"
+
+{-# START_FILE app/Main.hs #-}
+module Main (main) where
+
+main :: IO ()
+main = return ()
+
+{-# START_FILE src/Lib.hs #-}
+module Lib
+  () where
+
+-- Solution template
+
+{-# START_FILE test/LibTest.hs #-}
+module LibTest
+  () where
+
+-- Tests template
+{-# START_FILE .gitignore #-}
+
+.stack-work/
+*~
