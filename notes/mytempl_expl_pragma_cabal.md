@@ -41,6 +41,20 @@ Or you can pass each one as parameters like this:
 stack new code mytempl -p "author-email:value" -p "author-name:value" -p "category:value" -p "copyright:value" -p "github-username:value"
 ```
 
+
+`ghc-options:`
+
+- `-Wall` -- Enables all warnings.
+- `-Wcompat` -- Warn about compatibility issues between different versions of GHC.
+- `-Widentities` -- Warn about redundant identity functions.
+- `-Wincomplete-record-updates` -- Warn about incomplete record updates.
+- `-Wincomplete-uni-patterns` -- Warn about incomplete pattern matches in case expressions.
+- `-Wmissing-export-lists` -- Warn about missing export lists in modules.
+- `-Wmissing-home-modules` -- Warn about missing home modules.
+- `-Wpartial-fields` -- Warn about partial record fields.
+- `-Wredundant-constraints` -- Warn about redundant constraints.
+
+
 ----
 
 library
@@ -78,6 +92,15 @@ executable {{name}}-exe                     -- how to name the executable
 ```
 Warning: Packages using 'cabal-version: >= 1.10' and before 'cabal-version: 3.4' must specify the 'default-language' field for each component (e.g. Haskell98 or Haskell2010). If a component uses different languages in different modules then list the other ones in the 'other-languages' field.
 ```
+
+
+`ghc-options:`
+
+- `-threaded` -- Enables threaded runtime system.
+- `-rtsopts` -- Passes runtime system options to the executable.
+- `-with-rtsopts=-N` -- Sets the number of capabilities for the runtime system to the value specified after -with-rtsopts.
+
+
 
 ----
 
