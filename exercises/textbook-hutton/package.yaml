@@ -1,0 +1,41 @@
+name:                textbook-hutton
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Widentities
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wmissing-export-lists
+- -Wmissing-home-modules
+- -Wpartial-fields
+- -Wredundant-constraints
+
+library:
+  source-dirs: src
+
+executables:
+  textbook-hutton-exe:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+    - textbook-hutton
+    ghc-options:
+    - -fwarn-tabs
+
+
+tests:
+  textbook-hutton-test:
+    main:                Spec.hs
+    source-dirs:         test
+    dependencies:
+    - textbook-hutton
+    ghc-options:
+    - -fwarn-tabs
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
