@@ -1,6 +1,6 @@
 ## Thorough examination of the book content
 
-"Book Title" by Author (N ed., YYYY) [^book-website] ([pdf](link))
+"Programming in Haskell" by Graham Hutton (2nd ed., 2016) [^book-website] ([pdf](https://mega.nz/file/b10XkKKD#XLhYfT7GBsJsCgL3Nw0zCKkGzBAAvN2XbiSoIriIK-Y))
 
 ---
 
@@ -12,7 +12,6 @@ Jump to notes for Chapter [1](#ch1) | [2](#ch2) | ...
 ```
 textbook/
 ├...
-├── README.md  --  Project info & navigation.
 ├── notes      --  Remarks, useful references, reflexion.
 ├── sol-md     --  Exercise solutions without coding.
 ├── sol-hs     --  Implementations of programming tasks.
@@ -39,4 +38,4 @@ Exercise 1 &mdash; [code](link) | [unit tests](link) | [reflection (optional)](l
 
 [Go back to top](#top)
 
-[^book-website]: https://...
+[^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
