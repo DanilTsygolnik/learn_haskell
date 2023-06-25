@@ -2,6 +2,9 @@
 name:                {{name}}
 version:             0.1.0.0
 
+extra-source-files:
+- README.md
+
 dependencies:
 - base >= 4.7 && < 5
 
@@ -17,7 +20,7 @@ ghc-options:
 - -Wredundant-constraints
 
 library:
-  source-dirs: src
+  source-dirs: sol-hs
 
 executables:
   {{name}}-exe:
@@ -62,7 +65,7 @@ module Main (main) where
 main :: IO ()
 main = return ()
 
-{-# START_FILE src/ChapXexY.hs #-}
+{-# START_FILE sol-hs/ChapXexY.hs #-}
 module ChapXexY
   () where
 
@@ -73,6 +76,49 @@ module ChapXexYtest
   () where
 
 -- Tests template
+
+{-# START_FILE README.md #-}
+## Thorough examination of the book content
+
+"Book Title" by Author (N ed., YYYY) [^book-website] ([pdf](link))
+
+---
+
+Jump to notes for Chapter [1](#ch1) | [2](#ch2) | ...
+
+### Core project directories
+
+```
+textbook/
+├...
+├── notes      --  Remarks, useful references, reflexion.
+├── sol-md     --  Exercise solutions without coding.
+├── sol-hs     --  Implementations of programming tasks.
+└── test       --  Unit tests for programming task solutions.
+```
+
+### Working through the chapters
+
+<a name="ch1"></a>
+#### Chapter 1
+
+-- Chapter 1 reflexion notes --
+
+##### Exercises
+
+Exercise 1 &mdash; [code](link) | [unit tests](link) | [reflection (optional)](link)
+
+<details>
+<summary>See the task</summary>
+
+-- Exercise text --
+
+</details>
+
+[Go back to top](#top)
+
+[^book-website]: https://...
+
 {-# START_FILE .gitignore #-}
 
 .stack-work/
