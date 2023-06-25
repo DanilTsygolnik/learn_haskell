@@ -17,7 +17,7 @@ ghc-options:
 - -Wredundant-constraints
 
 library:
-  source-dirs: src
+  source-dirs: sol-hs
 
 executables:
   textbook-hutton-exe:
