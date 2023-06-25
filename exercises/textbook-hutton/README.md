@@ -27,12 +27,14 @@ textbook/
 
 ##### Exercises
 
-Exercise 1 &mdash; [code](link) | [unit tests](link) | [reflection (optional)](link)
+Exercise 1 &mdash; [solution](./sol-md/Chap1ex1.md)
 
 <details>
 <summary>See the task</summary>
 
--- Exercise text --
+There are two possible calculations for the nested application of the `double (double 2)` function on pages 3-4.
+
+Give another possible calculation for the result of `double (double 2)`.
 
 </details>
 
