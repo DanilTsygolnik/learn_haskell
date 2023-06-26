@@ -63,6 +63,23 @@ Define a function product that produces the product of a list of numbers, and sh
 
 </details>
 
+Exercise 4 &mdash; [solution](./sol-hs/Chap1ex4.hs)
+
+<details>
+<summary>See the task</summary>
+Suppose that we define a function called `qsort` by the following two equations:
+```
+qsort [] = []
+qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
+               where
+                   smaller = [a | a <- xs, a <= x]
+                   larger = [b | b <- xs, b > x]
+```
+
+How should the definition of the function `qsort` be modified so that it produces a reverse sorted version of a list?
+
+</details>
+
 [Go back to top](#top)
 
 [^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
