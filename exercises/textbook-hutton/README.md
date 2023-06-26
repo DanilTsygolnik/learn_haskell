@@ -54,6 +54,15 @@ Show that `sum [x] = x` for any number x.
 
 </details>
 
+Exercise 3 &mdash; [solution](./sol-hs/Chap1ex3.hs) | [unit tests](./test/Chap1ex3test.hs) | [explanation](./sol-md/Chap1ex3.md) 
+
+<details>
+<summary>See the task</summary>
+
+Define a function product that produces the product of a list of numbers, and show using your definition that `product [2,3,4] = 24`.
+
+</details>
+
 [Go back to top](#top)
 
 [^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
