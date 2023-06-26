@@ -38,6 +38,22 @@ Give another possible calculation for the result of `double (double 2)`.
 
 </details>
 
+Exercise 2 &mdash; [solution](./sol-md/Chap1ex2.md)
+
+<details>
+<summary>See the task</summary>
+
+Here the `sum` function implementation:
+```
+sum :: Num x => [x] -> x
+sum [] = 0
+sum (x:xs) = x + sum xs
+```
+
+Show that `sum [x] = x` for any number x.
+
+</details>
+
 [Go back to top](#top)
 
 [^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
