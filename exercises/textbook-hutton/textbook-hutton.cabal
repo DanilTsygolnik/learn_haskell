@@ -11,6 +11,7 @@ build-type:     Simple
 library
   exposed-modules:
       Chap1ex3
+      Chap1ex4
       ChapXexY
   other-modules:
       Paths_textbook_hutton
@@ -40,6 +41,7 @@ test-suite textbook-hutton-test
   main-is: Spec.hs
   other-modules:
       Chap1ex3test
+      Chap1ex4test
       ChapXexYtest
       Paths_textbook_hutton
   hs-source-dirs:

@@ -63,7 +63,7 @@ Define a function product that produces the product of a list of numbers, and sh
 
 </details>
 
-Exercise 4 &mdash; [solution](./sol-hs/Chap1ex4.hs)
+Exercise 4 &mdash; [solution](./sol-hs/Chap1ex4.hs) | [unit tests](./test/Chap1ex4test.hs)
 
 <details>
 <summary>See the task</summary>
