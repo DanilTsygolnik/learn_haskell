@@ -12,6 +12,7 @@ library
   exposed-modules:
       Chap1ex3
       Chap1ex4
+      Chap1ex5
       ChapXexY
   other-modules:
       Paths_textbook_hutton

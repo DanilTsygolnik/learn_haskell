@@ -80,6 +80,15 @@ How should the definition of the function `qsort` be modified so that it produce
 
 </details>
 
+Exercise 5 &mdash; [solution](./sol-hs/Chap1ex5.hs) | [explanation](./sol-md/Chap1ex5.md)
+
+<details>
+<summary>See the task</summary>
+
+What would be the effect of replacing `<=` by `<` in the original definition of `qsort` (see the previous task)? Hint: consider the example `qsort [2,2,3,1,1]`.
+
+</details>
+
 [Go back to top](#top)
 
 [^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
