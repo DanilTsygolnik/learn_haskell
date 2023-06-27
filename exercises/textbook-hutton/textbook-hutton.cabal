@@ -48,6 +48,7 @@ test-suite textbook-hutton-test
       Chap1ex3test
       Chap1ex4test
       Chap2ex4test
+      Chap2ex5test
       ChapXexYtest
       Paths_textbook_hutton
   hs-source-dirs:
