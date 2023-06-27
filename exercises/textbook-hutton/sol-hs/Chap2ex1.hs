@@ -3,6 +3,7 @@ module Chap2ex1
     , quadruple
     , factorial
     , averageInaccurate
+    , averageBetter
     )
     where
 
@@ -17,3 +18,9 @@ factorial n = product [1..n]
 
 averageInaccurate :: [Int] -> Int
 averageInaccurate ns = sum ns `div` length ns
+
+toFloat :: Int -> Float
+toFloat x = fromIntegral x
+
+averageBetter :: [Float] -> Float
+averageBetter ns = sum ns / toFloat ((length ns) :: Int)
