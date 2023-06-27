@@ -158,6 +158,19 @@ The library function `last` selects the last element of a non-empty list; for ex
 
 [Go back to top](#top)
 
+Exercise 5 &mdash; [code](./sol-hs/Chap2ex5.hs) | [unit tests](./test/Chap2ex5test.hs)
+
+<details>
+<summary>See the task</summary>
+
+5. The library function init removes the last element from a non-empty list; for example, `init [1,2,3,4,5] = [1,2,3,4]`. Show how `init` could similarly be defined in two different ways.
+
+</details>
+
+[Go back to top](#top)
+
+
+
 
 <!-- Chapter template
 <a name="chN"></a>
