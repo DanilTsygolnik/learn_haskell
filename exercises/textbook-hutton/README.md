@@ -113,6 +113,22 @@ Exercise 1 &mdash; [code](./sol-hs/Chap2ex1.hs) | [explanation](./sol-md/Chap2ex
 
 [Go back to top](#top)
 
+Exercise 2 &mdash; [explanation](./sol-md/Chap2ex2.md)
+
+TODO: add a comprehensive table of operators priority.
+
+<details>
+<summary>See the task</summary>
+
+```
+2^3*4
+2*3+4*5
+2+3*4^5
+```
+
+</details>
+
+[Go back to top](#top)
 
 
 
