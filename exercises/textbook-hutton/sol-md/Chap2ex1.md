@@ -31,7 +31,7 @@ ghci> product [1..5]
 
 ## Chapters 2.5 examples (Haskell scripts)
 
-Добавляю скрипт (коммит - Chap2ex1 ghci script: double, quadruple):
+Добавляю скрипт ([bab8296](https://github.com/DanilTsygolnik/learn_haskell/commit/bab8296ed0ab32e347df753846a5844787dc6e77)):
 ```
 -- ../sol-hs/Chap2ex1.hs
 double x = x + x
@@ -118,7 +118,7 @@ sol-hs/Chap2ex1.hs:7:1: warning: [-Wmissing-signatures]
 7 | double x = x + x
   | ^^^^^^
 ```
-Исправил (коммит - Chap2ex1 ghci script: fix warning -Wmissing-signatures), руководствуясь материалами из гл. 3.5 ("Function Types") и 3.8 ("Overloaded Types").
+Исправил ([625cd1d](https://github.com/DanilTsygolnik/learn_haskell/commit/625cd1d6a8dadeeb45c362cdda002fc1d3838b9f)), руководствуясь материалами из гл. 3.5 ("Function Types") и 3.8 ("Overloaded Types").
 
 Чтобы внесённые в код правки вступили в силу, командой `:reload` перезагружаю скрипт, не закрывая интерпретатор. На данном этапе, GHC больше не "ругается":
 ```
@@ -127,7 +127,7 @@ ghci> :reload
 Ok, one module loaded.
 ```
 
-После нескольких нескольких неудачных попыток с ошибками компиляции добавляю функции из двух оставшихся примеров главы (коммит - Chap2ex1 ghci script: factorial, averageInaccurate).
+После нескольких нескольких неудачных попыток с ошибками компиляции добавляю функции из двух оставшихся примеров главы ([f3b8e7e](https://github.com/DanilTsygolnik/learn_haskell/commit/f3b8e7e92c868afba1cc8aa813d6e0795b0f1958)).
 
 Во избежании предупреждения `-Wtype-defaults` при вычислении факториала, нужно явно указывать тип аргумента:
 ```
@@ -151,7 +151,7 @@ ghci> averageInaccurate [1,2]
 1  -- should be 1.5
 ```
 
-На этом моменте мне стало интересно написать функцию для более точного вычисления среднего значения списка. Потратив некоторое время на поиски и отладку, написал рабочее решение (коммит - Chap2ex1 script: averageBetter):
+На этом моменте мне стало интересно написать функцию для более точного вычисления среднего значения списка. Потратив некоторое время на поиски и отладку, написал рабочее решение ([f298c24](https://github.com/DanilTsygolnik/learn_haskell/commit/f298c245b4f01ff695f079c3bdc83ea250248aed)):
 ```
 ghci> averageBetter [1.0,2.0]
 1.5
