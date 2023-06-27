@@ -13,6 +13,9 @@ library
       Chap1ex3
       Chap1ex4
       Chap1ex5
+      Chap2ex1
+      Chap2ex3
+      Chap2ex4
       ChapXexY
   other-modules:
       Paths_textbook_hutton
@@ -43,6 +46,7 @@ test-suite textbook-hutton-test
   other-modules:
       Chap1ex3test
       Chap1ex4test
+      Chap2ex4test
       ChapXexYtest
       Paths_textbook_hutton
   hs-source-dirs:
