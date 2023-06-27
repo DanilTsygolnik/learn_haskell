@@ -95,4 +95,25 @@ What would be the effect of replacing `<=` by `<` in the original definition of 
 
 [Go back to top](#top)
 
+<a name="ch2"></a>
+#### Chapter 2
+
+-- Chapter 2 reflexion notes --
+
+##### Exercises
+
+Exercise 1 &mdash; [code](./sol-hs/Chap2ex1.hs) | [explanation](./sol-md/Chap2ex1.md)
+
+<details>
+<summary>See the task</summary>
+
+ Work through the examples from this chapter using GHCi.
+
+</details>
+
+[Go back to top](#top)
+
+
+
+
 [^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
