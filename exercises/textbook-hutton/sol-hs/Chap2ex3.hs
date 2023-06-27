@@ -2,6 +2,7 @@ module Chap2ex3
     ( funcN )
     where
 
+funcN :: Int
 funcN = a `div` length xs
     where
         a = 10
