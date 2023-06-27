@@ -116,4 +116,25 @@ Exercise 1 &mdash; [code](./sol-hs/Chap2ex1.hs) | [explanation](./sol-md/Chap2ex
 
 
 
+<!-- Chapter template
+<a name="chN"></a>
+#### Chapter N
+
+-- Chapter N reflexion notes --
+
+##### Exercises
+
+Exercise 1 &mdash; [code](./sol-hs/ChapNex1.hs) | [unit tests](./test/ChapNex1test.hs) | [explanation](./sol-md/ChapNex1.md)
+
+<details>
+<summary>See the task</summary>
+
+-- Task text --
+
+</details>
+
+[Go back to top](#top)
+-->
+
+
 [^book-website]: https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
