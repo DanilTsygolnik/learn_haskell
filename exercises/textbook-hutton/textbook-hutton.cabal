@@ -16,6 +16,7 @@ library
       Chap2ex1
       Chap2ex3
       Chap2ex4
+      Chap2ex5
       ChapXexY
   other-modules:
       Paths_textbook_hutton
