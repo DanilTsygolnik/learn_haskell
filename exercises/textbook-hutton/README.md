@@ -147,16 +147,27 @@ N = a ’div’ length xs
 
 [Go back to top](#top)
 
+Exercise 4 &mdash; [code](./sol-hs/Chap2ex4.hs) | [unit tests](./test/Chap2ex4test.hs)
+
+<details>
+<summary>See the task</summary>
+
+The library function `last` selects the last element of a non-empty list; for example, `last [1,2,3,4,5] = 5`. Show how the function `last` could be defined in terms of the other library functions introduced in this chapter. Can you think of another possible definition?
+
+</details>
+
+[Go back to top](#top)
+
 
 <!-- Chapter template
 <a name="chN"></a>
-#### Chapter N
+#### Chapter Y
 
--- Chapter N reflexion notes --
+-- Chapter Y reflexion notes --
 
 ##### Exercises
 
-Exercise 1 &mdash; [code](./sol-hs/ChapNex1.hs) | [unit tests](./test/ChapNex1test.hs) | [explanation](./sol-md/ChapNex1.md)
+Exercise Z &mdash; [code](./sol-hs/ChapYexZ.hs) | [unit tests](./test/ChapYexZtest.hs) | [explanation](./sol-md/ChapYexZ.md)
 
 <details>
 <summary>See the task</summary>
