@@ -169,14 +169,14 @@ Exercise 5 &mdash; [code](./sol-hs/Chap2ex5.hs) | [unit tests](./test/Chap2ex5te
 
 [Go back to top](#top)
 
-<a name="ch5"></a>
-#### Chapter 5
+<a name="ch3"></a>
+#### Chapter 3
 
--- Chapter 5 reflexion notes --
+-- Chapter 3 reflexion notes --
 
 ##### Exercises
 
-Exercise 1 &mdash; [explanation](./sol-md/Chap5ex1.md)
+Exercise 1 &mdash; [explanation](./sol-md/Chap3ex1.md)
 
 <details>
 <summary>See the task</summary>
@@ -198,7 +198,7 @@ What are the types of the following values?
 
 [Go back to top](#top)
 
-Exercise 2 &mdash; [explanation](./sol-md/Chap5ex2.md)
+Exercise 2 &mdash; [explanation](./sol-md/Chap3ex2.md)
 
 <details>
 <summary>See the task</summary>
@@ -220,7 +220,7 @@ apply :: (a -> b) -> a -> b
 
 [Go back to top](#top)
 
-Exercise 3 &mdash; [explanation](./sol-md/Chap5ex3.md)
+Exercise 3 &mdash; [explanation](./sol-md/Chap3ex3.md)
 
 <details>
 <summary>See the task</summary>
