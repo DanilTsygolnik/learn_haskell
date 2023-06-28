@@ -198,6 +198,56 @@ What are the types of the following values?
 
 [Go back to top](#top)
 
+Exercise 2 &mdash; [explanation](./sol-md/Chap5ex2.md)
+
+<details>
+<summary>See the task</summary>
+
+Write down definitions that have the following types; it does not matter what the definitions actually do as long as they are type correct.
+```
+bools :: [Bool]
+
+nums :: [[Int]]
+
+add :: Int -> Int -> Int -> Int
+
+copy :: a -> (a,a) 
+
+apply :: (a -> b) -> a -> b
+```
+
+</details>
+
+[Go back to top](#top)
+
+Exercise 3 &mdash; [explanation](./sol-md/Chap5ex3.md)
+
+<details>
+<summary>See the task</summary>
+
+What are the types of the following functions?
+```
+second xs = head (tail xs)
+
+swap (x,y) = (y,x)
+
+pair x y = (x,y)
+ 
+double x = x*2
+ 
+palindrome xs = reverse xs == xs
+
+twice f x = f (f x)
+```
+Hint: take care to include the necessary class constraints in the types if the functions are defined using overloaded operators.
+
+</details>
+
+[Go back to top](#top)
+
+Exercise 4: "Check your answers to the preceding three questions using GHCi" &mdash; done alongside with the exercises 1-3.
+
+[Go back to top](#top)
 
 <!-- Chapter template
 <a name="chY"></a>
