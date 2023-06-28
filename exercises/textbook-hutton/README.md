@@ -137,7 +137,7 @@ Exercise 3 &mdash; [code](./sol-hs/Chap2ex3.hs) | [explanation](./sol-md/Chap2ex
 
 The script below contains three syntactic errors. Correct these errors and then check that your script works properly using GHCi.
 ```
-N = a ’div’ length xs
+N = a 'div' length xs
     where
          a = 10
         xs = [1,2,3,4,5]
@@ -169,11 +169,38 @@ Exercise 5 &mdash; [code](./sol-hs/Chap2ex5.hs) | [unit tests](./test/Chap2ex5te
 
 [Go back to top](#top)
 
+<a name="ch5"></a>
+#### Chapter 5
 
+-- Chapter 5 reflexion notes --
+
+##### Exercises
+
+Exercise 1 &mdash; [explanation](./sol-md/Chap5ex1.md)
+
+<details>
+<summary>See the task</summary>
+
+What are the types of the following values?
+```
+['a','b','c']
+
+('a','b','c')
+
+[(False,'O'),(True,'1')]
+
+([False,True],['0','1'])
+
+[tail, init, reverse]
+```
+
+</details>
+
+[Go back to top](#top)
 
 
 <!-- Chapter template
-<a name="chN"></a>
+<a name="chY"></a>
 #### Chapter Y
 
 -- Chapter Y reflexion notes --
