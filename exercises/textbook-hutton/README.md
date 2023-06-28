@@ -4,7 +4,7 @@
 
 ---
 
-Jump to notes for Chapter [1](#ch1) | [2](#ch2) | ...
+Jump to notes for Chapter [1](#ch1) | [2](#ch2) | [3](#ch3) | ...
 
 
 ### Core project directories
