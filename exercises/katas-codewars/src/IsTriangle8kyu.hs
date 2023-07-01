@@ -2,14 +2,9 @@ module IsTriangle8kyu
     ( isTriangle )
     where
 
-checkIfAllTrue :: [Bool] -> Bool
-checkIfAllTrue = foldr (&&) True
+import Data.List
 
 isTriangle :: Int -> Int -> Int -> Bool
-isTriangle a b c = checkIfAllTrue [ (a > 0)
-                                  , (a < (b+c))
-                                  , (b > 0)
-                                  , (b < (a+c))
-                                  , (c > 0)
-                                  , (c < (a+b))
-                                  ]
+isTriangle a b c = (a > 0 && b > 0 && c > 0) && maxSide < (sum others)
+                   where
+                       (maxSide:others) = reverse (sort [a,b,c])
