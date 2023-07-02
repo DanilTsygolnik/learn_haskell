@@ -10,6 +10,7 @@ build-type:     Simple
 
 library
   exposed-modules:
+      DisemvowelTrolls7kyu
       IsTriangle8kyu
       Lib
   other-modules:
