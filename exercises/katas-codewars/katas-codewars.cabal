@@ -42,6 +42,7 @@ test-suite katas-codewars-test
   main-is: Spec.hs
   other-modules:
       DisemvowelTrolls7kyuSpec
+      HighAndLow7kyuSpec
       IsTriangle8kyuSpec
       LibTest
       Paths_katas_codewars
