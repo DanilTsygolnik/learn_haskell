@@ -44,6 +44,7 @@ test-suite katas-codewars-test
   other-modules:
       DisemvowelTrolls7kyuSpec
       HighAndLow7kyuSpec
+      Isograms7kyuSpec
       IsTriangle8kyuSpec
       LibTest
       Paths_katas_codewars
