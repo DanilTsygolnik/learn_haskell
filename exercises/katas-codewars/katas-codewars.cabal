@@ -12,6 +12,7 @@ library
   exposed-modules:
       DisemvowelTrolls7kyu
       HighAndLow7kyu
+      Isograms7kyu
       IsTriangle8kyu
       Lib
   other-modules:
