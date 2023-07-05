@@ -15,6 +15,7 @@ library
       Isograms7kyu
       IsTriangle8kyu
       Lib
+      SplitStrings
   other-modules:
       Paths_katas_codewars
   hs-source-dirs:
