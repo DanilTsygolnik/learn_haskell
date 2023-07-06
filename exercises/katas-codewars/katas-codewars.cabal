@@ -50,6 +50,7 @@ test-suite katas-codewars-test
       IsTriangle8kyuSpec
       LibTest
       SplitStringsSpec
+      Tribonacci6kyuSpec
       Paths_katas_codewars
   hs-source-dirs:
       test
