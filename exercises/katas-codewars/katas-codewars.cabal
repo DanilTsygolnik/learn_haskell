@@ -16,6 +16,7 @@ library
       IsTriangle8kyu
       Lib
       SplitStrings
+      Tribonacci6kyu
   other-modules:
       Paths_katas_codewars
   hs-source-dirs:
